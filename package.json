@@ -1,0 +1,5 @@
+{
+  "name": "splinkapp", "version": "2.0.0", "private": true,
+  "scripts": {"dev":"npm --prefix extension run preview", "build":"npm --prefix extension run build && node scripts/package.mjs", "lint":"npm --prefix extension run lint", "test":"npm --prefix extension test", "test:coverage":"npm --prefix extension run test:coverage", "check":"npm run lint && npm test && npm run build"},
+  "engines":{"node":">=22.0.0"}
+}

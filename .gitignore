@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+extension/dist/
+extension/artifacts/
+artifacts/
+supabase/.temp/
+npm-debug.log*

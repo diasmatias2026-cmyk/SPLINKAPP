@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.png binary
+extension/vendor/wa-js.js -text linguist-vendored
+extension/vendor/* linguist-vendored
